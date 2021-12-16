@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webshop</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="admin.html">
+        <button>Admin</button>
+      </a>
+      <section>
+        <input type="text" placeholder="sökspel" />
+        <a href="kat1.html"> <button>Sök</button></a>
+      </section>
+
+      <section>
+        <a href="login.html"> <button>Loga in</button></a>
+        <a href="varukorg.html"> <button>varukorg</button></a>
+      </section>
+    </header>
+
+    <main>
+      <h1>Välkommen till oss</h1>
+      <nav>
+        <a href="index.html">Hem</a>
+        <a href="kat1.html">Kategori 1</a>
+        <a href="kat1.html">Katergori 2</a>
+        <a href="kat1.html">Katergori 3</a>
+        <a href="faq.html">Vanliga frågor</a>
+      </nav>
+      <section id="varukorg">
+        <article class="produkt">
+          <button>x</button>
+          <img src="" alt="Bild" />
+          <span> Title </span>
+          <article>
+            <button>-</button>
+            <input type="text" value="1" name="" id="" />
+            <button>+</button>
+          </article>
+          <span> 399 :- </span>
+        </article>
+        <article class="produkt">
+          <button>x</button>
+          <img src="" alt="Bild" />
+          <span> Title </span>
+          <article>
+            <button>-</button>
+            <input type="text" value="1" name="" id="" />
+            <button>+</button>
+          </article>
+          <span> 399 :- </span>
+        </article>
+        <article class="produkt">
+          <button>x</button>
+          <img src="" alt="Bild" />
+          <span> Title </span>
+          <article>
+            <button>-</button>
+            <input type="text" value="1" name="" id="" />
+            <button>+</button>
+          </article>
+          <span> 399 :- </span>
+        </article>
+
+        <section class="Orderpris">
+          <article>Orderpris:1197:-</article>
+        </section>
+      </section>
+
+      <section id="betalning">
+        <section id="personuppgifter">
+          <input type="text" placeholder="Namn*" />
+          <input type="text" placeholder="Efternamn*" />
+          <input type="email" placeholder="Epostadress*" />
+          <input type="text" placeholder="Telefon" />
+          <input type="text" placeholder="Adress*" />
+          <input type="text" placeholder="Postnummer*" />
+          <input type="text" placeholder="Ort*" />
+          <input type="text" placeholder="c/o adress" />
+        </section>
+
+        <section class="radios">
+          <span>Leveransmetod</span>
+
+          <article>
+            <input type="radio" name="Leverans" id="hemleverans" />
+            <label for="hemleverans">Hemleverans 49:-</label>
+          </article>
+          <article>
+            <input type="radio" name="Leverans" checked id="postombud" />
+            <label for="postombud">Postombud</label>
+          </article>
+          <article>
+            <input type="checkbox" name="" id="express">
+            <label for="express">Expressleverans 149:-</label>
+          </article>
+
+        </section>
+        <section class="radios">
+          <span>Betalningsmetod</span>
+          <article>
+            <input type="radio" name="betalningsmetod" checked id="direkt" />
+            <label for="direkt">Direkt betalning (BankId)</label>
+          </article>
+          <article>
+            <input type="radio" name="betalningsmetod" id="faktura" />
+            <label for="faktura">Faktura 49:-</label>
+          </article>
+          <article>
+            <input type="radio" name="betalningsmetod" id="delbetalning" />
+            <label for="delbetalning">Delbetalning från 49:-*</label>
+          </article>
+        </section>
+
+        <section class="pris">
+        <article>
+            exl.moms 1197:-
+        </article>
+        <article>
+            moms 299,25:- (25%)
+        </article>
+        <article>
+            <span> Totalsumma 1496,25:- </span>
+          </article>
+        </section>
+
+        <section id="slutfor">
+          <button type="button">Slutför köp</button>
+          <article class="nyhetsbrev">
+            <input type="checkbox" id="nyhetsbrev" />
+            <label for="nyhetsbrev">Vill du ha nyhetsbrev om liknande spel</label>
+          </article>
+        </section>
+
+
+      </section>
+    </main>
+  </body>
+</html>
