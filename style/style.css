@@ -65,16 +65,50 @@ body main #login {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  font-size: 1.5rem;
+  background-color: #2ba3b3;
+  padding: 0.5rem;
+  /*             >:last-child {
+                  flex-direction: row;
+
+                  a {
+                      color: black;
+                      padding: 0.5rem;
+                  }
+              } */
 }
 body main #login article {
-  background-color: red;
   display: flex;
   flex-direction: column;
 }
-body main #login > :last-child {
+body main #login article input {
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: aliceblue;
+}
+body main #login #loggaIn {
+  display: flex;
   flex-direction: row;
 }
-body main #login > :last-child a {
+body main #login #loggaIn section {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+body main #login #loggaIn section button {
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: aliceblue;
+}
+body main #login #loggaIn section section {
+  display: flex;
+  flex-direction: row;
+}
+body main #login #loggaIn section section a {
   color: black;
   padding: 0.5rem;
 }

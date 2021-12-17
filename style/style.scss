@@ -112,22 +112,58 @@ body {
             display: flex;
             flex-direction: column;
             width: max-content;
+            font-size: 1.5rem;
+            background-color: darken(#54C7D6, 15%);
+            padding: 0.5rem;
+
 
             article {
-                background-color: red;
                 display: flex;
                 flex-direction: column;
-
+input {
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+}
             }
+            #loggaIn {
+                display: flex;
+                flex-direction: row;
 
-            >:last-child {
+                section {
+                font-size: 1rem;
+
+                    display: flex;
+                    flex-direction: column;
+                    button {
+                        padding: 0.5rem;
+                        border: 2px solid black;
+                        border-radius: 5px;
+                        margin-bottom: 5px;
+                        background-color: aliceblue;
+                    }
+                    section {
+                        display: flex;
+                        flex-direction: row;
+
+                        a {
+                            color: black;
+                            padding: 0.5rem;
+                        }
+                    }
+                }
+            }
+/*             >:last-child {
                 flex-direction: row;
 
                 a {
                     color: black;
                     padding: 0.5rem;
                 }
-            }
+            } */
+
 
         }
 
