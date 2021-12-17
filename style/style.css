@@ -1,6 +1,11 @@
 body {
+<<<<<<< Updated upstream
   background-image: url('/style/spel1.jpg');
   background-size: cover;
+=======
+  background-image: url('../image/spel.image/spel15.png')  ;
+  background-repeat: no-repeat ;
+>>>>>>> Stashed changes
   background-color: blue;
  
   display: grid;
