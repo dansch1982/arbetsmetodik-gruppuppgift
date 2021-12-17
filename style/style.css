@@ -1,13 +1,5 @@
 body {
-<<<<<<< Updated upstream
-  background-image: url('/style/spel1.jpg');
-  background-size: cover;
-=======
-  background-image: url('../image/spel.image/spel15.png')  ;
-  background-repeat: no-repeat ;
->>>>>>> Stashed changes
-  background-color: blue;
- 
+  background-color: #54c7d6;
   display: grid;
   grid-template-rows: -webkit-max-content auto;
   grid-template-rows: max-content auto;
@@ -29,13 +21,12 @@ body main {
 }
 body main h1 {
   text-align: center;
-  color: white; /*har ändrat färgen*/
 }
 body main nav {
   margin: 1rem 0;
 }
 body main nav a {
-  color: white; /*har ändart färgen */
+  color: black;
 }
 body main #promo {
   display: flex;
@@ -53,7 +44,7 @@ body main #promo a article {
   flex-direction: column;
   width: 100%;
   text-align: center;
-  background-color: blueviolet;
+  background-color: #2ba3b3;
   border: 2px solid black;
 }
 body main #promo a article h2 {
@@ -184,7 +175,7 @@ body main #simular section {
   justify-content: space-around;
 }
 body main #simular section .spel {
-  background-color: transparent;/*har ändrat färgen*/
+  /* background-color: red; */
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
