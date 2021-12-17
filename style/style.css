@@ -1,5 +1,8 @@
 body {
+  background-image: url('/style/spel1.jpg');
+  background-size: cover;
   background-color: blue;
+ 
   display: grid;
   grid-template-rows: -webkit-max-content auto;
   grid-template-rows: max-content auto;
@@ -21,12 +24,13 @@ body main {
 }
 body main h1 {
   text-align: center;
+  color: white; /*har ändrat färgen*/
 }
 body main nav {
   margin: 1rem 0;
 }
 body main nav a {
-  color: black;
+  color: white; /*har ändart färgen */
 }
 body main #promo {
   display: flex;
@@ -175,7 +179,7 @@ body main #simular section {
   justify-content: space-around;
 }
 body main #simular section .spel {
-  background-color: red;
+  background-color: transparent;/*har ändrat färgen*/
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
