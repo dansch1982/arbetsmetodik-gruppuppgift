@@ -47,20 +47,20 @@
             </article>
             <article>
                 <label for="password">Password</label>
-                <input type="text" id="password" placeholder="password">
+                <input type="password" id="password" placeholder="password">
             </article>
 
             <section  id="loggaIn">
 
                 <section>
-                    <button for="submit">Logga in</button>
+                    <button for="submit" id="btnLogin">Logga in</button>
                 </section>
 
                 <section>
 
                     <section>
                         <label>
-                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="remember">
                             Kom ihåg mina uppgifter
                         </label>
                     </section>
@@ -75,7 +75,15 @@
         </section>
     </main>
 
-
+<script>
+    const remember = document.getElementById('remember')
+    remember.addEventListener('change', () => {
+        const userName = document.getElementById('userName')
+        localStorage.setItem('userName', userName.value);
+        const password = document.getElementById('password')
+        localStorage.setItem('password', password.value);
+    })
+</script>
 </body>
 
 </html>
