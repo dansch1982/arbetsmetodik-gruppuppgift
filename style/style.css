@@ -70,13 +70,13 @@ body main #login {
   padding: 0.5rem;
   border-radius: 5px;
   /*             >:last-child {
-                  flex-direction: row;
+      flex-direction: row;
 
-                  a {
-                      color: black;
-                      padding: 0.5rem;
-                  }
-              } */
+      a {
+          color: black;
+          padding: 0.5rem;
+      }
+  } */
 }
 body main #login article {
   display: flex;
@@ -286,7 +286,11 @@ body main #betalning #personuppgifter {
   flex-direction: column;
   margin: 1rem 0;
 }
-body main #betalning #personuppgifter input {
+body main #betalning #personuppgifter form {
+  display: flex;
+  flex-direction: column;
+}
+body main #betalning #personuppgifter form input {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;

@@ -38,7 +38,6 @@
             <a href="kat1.html">Kategori 1</a>
             <a href="kat1.html">Katergori 2</a>
             <a href="kat1.html">Fyndhörnan</a>
-            <a href="faq.html">Vanliga frågor</a>
         </nav>
         <section id="login">
             <article>
@@ -82,6 +81,10 @@
         localStorage.setItem('userName', userName.value);
         const password = document.getElementById('password')
         localStorage.setItem('password', password.value);
+    })
+    const btnLogin = document.getElementById('btnLogin')
+    btnLogin.addEventListener('click', () => {
+        window.location.href = "index.html"
     })
 </script>
 </body>
